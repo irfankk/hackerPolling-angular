@@ -1,0 +1,11 @@
+<div class="form-group">
+    <div class="form-control">
+        <input #username type="text" placeholder="username" name="username">
+    </div>
+    <div class="form-control">
+        <input #password type="password" placeholder="password" name="password">
+    </div>
+    <div class="form-control">
+        <button type="submit" (click)="submit(username.value, password.value)">Submit</button>
+    </div>
+</div>
